@@ -6,72 +6,56 @@ import { ExternalLink, Award, Calendar, Building } from "lucide-react";
 const Certificates = () => {
   const certificates = [
     {
-      title: "AWS Certified Cloud Practitioner",
-      issuer: "Amazon Web Services",
-      date: "2024",
-      credentialId: "AWS-CCP-2024-001",
-      skills: ["Cloud Computing", "AWS Services", "Cloud Security", "Architecture"],
-      description: "Foundational knowledge of AWS cloud services, security, and architectural best practices.",
-      verified: true,
-      link: "#"
-    },
-    {
-      title: "OpenAI API Certification",
-      issuer: "OpenAI",
+      title: "Overview of Global Navigation Satellite System",
+      issuer: "IIRS, Dehradun",
       date: "2023",
-      credentialId: "OPENAI-API-2023-042",
-      skills: ["GPT Models", "API Integration", "Prompt Engineering", "AI Ethics"],
-      description: "Advanced proficiency in OpenAI API usage, model fine-tuning, and responsible AI development.",
+      credentialId: "IIRS-GNSS-2023-001",
+      skills: ["Satellite Systems", "Navigation", "Remote Sensing"],
+      description:
+        "Comprehensive overview of GNSS technology and its applications in navigation and geospatial studies.",
       verified: true,
       link: "#"
     },
     {
-      title: "MongoDB Certified Developer",
-      issuer: "MongoDB University",
-      date: "2023",
-      credentialId: "MONGO-DEV-2023-087",
-      skills: ["MongoDB", "NoSQL", "Database Design", "Aggregation"],
-      description: "Expertise in MongoDB database design, querying, indexing, and application development.",
-      verified: true,
-      link: "#"
-    },
-    {
-      title: "React Advanced Certification",
-      issuer: "Meta",
+      title: "The Joy of Computing Using Python",
+      issuer: "NPTEL",
       date: "2022",
-      credentialId: "META-REACT-2022-156",
-      skills: ["React.js", "Hooks", "State Management", "Performance"],
-      description: "Advanced React concepts including hooks, context, performance optimization, and testing.",
+      credentialId: "NPTEL-PYTHON-2022-002",
+      skills: ["Python", "Problem Solving", "Algorithms"],
+      description:
+        "Learned Python programming concepts, problem-solving, and real-world applications through NPTEL course.",
       verified: true,
       link: "#"
     },
     {
-      title: "LangChain Fundamentals",
-      issuer: "LangChain Academy",
-      date: "2024",
-      credentialId: "LC-FUND-2024-023",
-      skills: ["LangChain", "RAG", "Vector Stores", "AI Agents"],
-      description: "Comprehensive understanding of LangChain framework for building AI applications.",
-      verified: true,
-      link: "#"
-    },
-    {
-      title: "Node.js Application Development",
-      issuer: "OpenJS Foundation",
+      title: "Introduction to Cybersecurity",
+      issuer: "Cisco / Networking Academy",
       date: "2022",
-      credentialId: "NODEJS-DEV-2022-134",
-      skills: ["Node.js", "Express", "API Development", "Microservices"],
-      description: "Professional-level Node.js development, including Express.js, APIs, and microservices architecture.",
+      credentialId: "CYBERSEC-INTRO-2022-003",
+      skills: ["Cybersecurity Basics", "Network Security", "Threat Analysis"],
+      description:
+        "Fundamentals of cybersecurity, including network safety, online threats, and defense mechanisms.",
+      verified: true,
+      link: "#"
+    },
+    {
+      title: "NCC Cadet Certification",
+      issuer: "National Cadet Corps (NCC)",
+      date: "2020",
+      credentialId: "NCC-CADET-2020-004",
+      skills: ["Leadership", "Discipline", "Teamwork"],
+      description:
+        "Certification recognizing successful completion of NCC training, focusing on discipline, leadership, and service.",
       verified: true,
       link: "#"
     }
   ];
 
   const certificationStats = [
-    { number: "6+", label: "Certifications Earned" },
-    { number: "4", label: "Major Platforms" },
+    { number: "4+", label: "Certifications Earned" },
+    { number: "3", label: "Major Platforms" },
     { number: "100%", label: "Verified Credentials" },
-    { number: "2024", label: "Latest Certification" }
+    { number: "2023", label: "Latest Certification" }
   ];
 
   return (
@@ -83,7 +67,8 @@ const Certificates = () => {
             Validated <span className="gradient-text">Expertise</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Industry-recognized certifications that validate my technical skills and commitment to continuous learning
+            Certifications and achievements that highlight my technical skills, continuous learning, 
+            and commitment to excellence in AI, ML, and software development.
           </p>
         </div>
 
@@ -170,8 +155,9 @@ const Certificates = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4">Continuous Learning</h3>
               <p className="text-muted-foreground mb-6">
-                I'm constantly updating my skills and pursuing new certifications to stay at the forefront of technology. 
-                Currently working on Advanced AI certifications and cloud architecture specializations.
+                I'm constantly upgrading my skills and pursuing certifications to stay ahead in AI, ML, 
+                and software development. Always exploring new tools and technologies to deliver 
+                impactful solutions.
               </p>
               <Button variant="hero" className="gap-2">
                 View All Credentials

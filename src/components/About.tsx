@@ -5,51 +5,54 @@ import { Brain, Code, Server, Zap } from "lucide-react";
 const About = () => {
   const experiences = [
     {
-      year: "2024 - Present",
-      role: "Senior Gen AI Developer",
-      company: "Tech Innovations Corp",
-      description: "Leading AI development projects, implementing RAG systems and LLM integrations",
-      skills: ["OpenAI", "LangChain", "Vector Databases", "Python"]
+      year: "March 2024 – Present",
+      role: "AI & ML Development Intern",
+      company: "Centre for Development of Advanced Computing (CDAC)",
+      description:
+        "Developed a real-time Smart Traffic Monitoring & ANPR system using YOLO and OCR pipelines. Built scalable multi-camera architecture with dashboards, optimized models for accuracy, and engineered robust storage solutions.",
+      skills: ["Python", "YOLO", "PaddleOCR", "Tesseract", "OpenCV", "MySQL", "SQLite", "Django", "WebSockets"]
     },
     {
-      year: "2022 - 2024",
-      role: "Full Stack Developer",
-      company: "Digital Solutions Ltd",
-      description: "Built scalable MERN stack applications serving 10K+ users",
-      skills: ["React", "Node.js", "MongoDB", "Express"]
+      year: "2022 – 2025",
+      role: "Master of Computer Science",
+      company: "Pondicherry University",
+      description:
+        "CGPA – 7.30/10. Focused on AI, ML, and full-stack development with projects in NLP, computer vision, and scalable system architectures.",
+      skills: ["NLP", "Transformers", "Deep Learning", "React.js", "Django", "PostgreSQL"]
     },
     {
-      year: "2021 - 2022",
-      role: "Frontend Developer",
-      company: "StartupXYZ",
-      description: "Developed responsive web applications and improved user experience",
-      skills: ["React", "TypeScript", "Tailwind CSS", "Redux"]
+      year: "2019 – 2022",
+      role: "Bachelor of Computer Science",
+      company: "Andhra University",
+      description:
+        "CGPA – 8.10/10. Built strong foundations in computer science, programming, and database systems.",
+      skills: ["Python", "DBMS", "C++", "Java", "MySQL"]
     }
   ];
 
   const domains = [
     {
       icon: Brain,
-      title: "Generative AI",
-      description: "RAG systems, LLM fine-tuning, ChatGPT integrations, AI assistants",
+      title: "AI & ML Development",
+      description: "YOLO-based detection, OCR pipelines, speech-to-text (Whisper), NLP integrations",
       years: "2+ Years"
     },
     {
       icon: Code,
       title: "Frontend Development",
-      description: "React, Next.js, TypeScript, Tailwind CSS, responsive design",
-      years: "3+ Years"
+      description: "React.js, HTML5, CSS3, Tailwind CSS, responsive design, state management",
+      years: "2+ Years"
     },
     {
       icon: Server,
       title: "Backend Development",
-      description: "Node.js, Express, MongoDB, PostgreSQL, REST APIs",
-      years: "3+ Years"
+      description: "Django, Node.js, Express.js, REST APIs, PostgreSQL, MySQL, MongoDB, SQLite",
+      years: "2+ Years"
     },
     {
       icon: Zap,
-      title: "Cloud & DevOps",
-      description: "AWS, Docker, Vercel, CI/CD, serverless functions",
+      title: "Full-Stack & Systems",
+      description: "Scalable architectures, API integrations, real-time dashboards, secure workflows",
       years: "2+ Years"
     }
   ];
@@ -60,11 +63,12 @@ const About = () => {
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">About Me</Badge>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Transforming Ideas into <span className="gradient-text">AI-Powered</span> Reality
+            Transforming Ideas into <span className="gradient-text">AI-Powered</span> Solutions
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            With 3+ years of experience in full-stack development and 2+ years specializing in 
-            Generative AI, I bridge the gap between traditional web development and cutting-edge AI technologies.
+            Results-driven AI & ML Developer with expertise in real-time computer vision, speech-to-text,
+            and full-stack application development. Skilled at designing scalable architectures, integrating APIs,
+            and optimizing models for challenging environments.
           </p>
         </div>
 
@@ -89,8 +93,8 @@ const About = () => {
         {/* Experience Timeline */}
         <div className="space-y-8">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold mb-4">Professional Experience</h3>
-            <p className="text-muted-foreground">My journey in the tech industry</p>
+            <h3 className="text-3xl font-bold mb-4">Professional Experience & Education</h3>
+            <p className="text-muted-foreground">My journey in AI, ML, and software development</p>
           </div>
 
           <div className="space-y-8">

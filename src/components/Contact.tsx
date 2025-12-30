@@ -3,26 +3,26 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, Calendar } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Send, Calendar } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
     {
       icon: Mail,
       label: "Email",
-      value: "aman.raj.dev@gmail.com",
-      link: "mailto:aman.raj.dev@gmail.com"
+      value: "bhanuja.2002@gmail.com",
+      link: "mailto:bhanuja.2002@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 9876543210",
-      link: "tel:+919876543210"
+      value: "+91 9391848438",
+      link: "tel:+919391848438"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Bangalore, India",
+      value: "Andhra Pradesh, India",
       link: "#"
     }
   ];
@@ -31,26 +31,20 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      link: "https://github.com/amanraj",
-      username: "@amanraj"
+      link: "https://github.com/BhanujaChandragiri", // Replace with your actual GitHub link
+      username: "GitHub Profile"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      link: "https://linkedin.com/in/amanraj-dev",
-      username: "amanraj-dev"
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      link: "https://twitter.com/amanraj_dev",
-      username: "@amanraj_dev"
+      link: "https://www.linkedin.com/in/bhanuja-chandragiri-063749308", // Replace with your actual LinkedIn link
+      username: "LinkedIn Profile"
     }
   ];
 
   const availabilityStatus = {
     status: "Available",
-    message: "Open for new opportunities",
+    message: "Open for AI/ML and Full-Stack Development opportunities",
     responseTime: "Usually responds within 24 hours"
   };
 
@@ -60,10 +54,11 @@ const Contact = () => {
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">Get In Touch</Badge>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Let's Build Something <span className="gradient-text">Amazing</span>
+            Let's Build Something <span className="gradient-text">Innovative</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to bring your AI-powered ideas to life? Let's discuss your project and create intelligent solutions together
+            Looking to collaborate on AI, ML, or full-stack development projects? Let's connect and 
+            create impactful solutions together.
           </p>
         </div>
 
@@ -183,8 +178,8 @@ const Contact = () => {
                     {[
                       "AI Development",
                       "Full Stack App",
-                      "RAG System",
-                      "Chatbot",
+                      "Computer Vision",
+                      "Speech-to-Text",
                       "API Integration",
                       "Consultation",
                       "Other"

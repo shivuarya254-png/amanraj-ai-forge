@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Heart, ArrowUp, Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Heart, ArrowUp, Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
@@ -13,17 +13,16 @@ const Footer = () => {
   const services = [
     "AI Development",
     "Full Stack Apps",
-    "RAG Systems",
+    "Computer Vision",
+    "Speech-to-Text",
     "API Integration",
-    "Consultation",
-    "Code Review"
+    "Consultation"
   ];
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "#", label: "Email" }
+    { icon: Github, href: "https://github.com/", label: "GitHub" }, // replace with your GitHub
+    { icon: Linkedin, href: "https://linkedin.com/", label: "LinkedIn" }, // replace with your LinkedIn
+    { icon: Mail, href: "mailto:bhanuja.2002@gmail.com", label: "Email" }
   ];
 
   const scrollToTop = () => {
@@ -47,24 +46,23 @@ const Footer = () => {
                 <div>
                   <div className="text-3xl font-bold mb-2">
                     <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                      Aman Raj
+                      Bhanuja
                     </span>
                   </div>
                   <Badge variant="secondary" className="mb-4">
-                    Gen AI Developer
+                    AI & Full-Stack Developer
                   </Badge>
                   <p className="text-background/80 max-w-md leading-relaxed">
-                    Transforming ideas into intelligent, AI-powered solutions. 
-                    Building the future of web applications with cutting-edge technology 
-                    and innovative design.
+                    Passionate about crafting intelligent AI-driven solutions and 
+                    building robust full-stack applications. Combining creativity with 
+                    technology to bring ideas to life.
                   </p>
                 </div>
 
                 {/* Contact Info */}
                 <div className="space-y-2 text-sm text-background/80">
-                  <div>📧 aman.raj.dev@gmail.com</div>
-                  <div>📱 +91 9876543210</div>
-                  <div>📍 Bangalore, India</div>
+                  <div>📧 bhanuja.2002@gmail.com</div>
+                  <div>📍 Andhra Pradesh, India</div>
                 </div>
 
                 {/* Social Links */}
@@ -123,9 +121,8 @@ const Footer = () => {
           <div className="container-custom">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-background/80 text-sm">
-                <p className="flex items-center gap-2">
-                  © 2024 Aman Raj. Made with <Heart size={16} className="text-red-500 fill-current" /> 
-                  and lots of ☕
+                <p className="flex items-center gap-2"> 
+                  and lots of 
                 </p>
               </div>
 

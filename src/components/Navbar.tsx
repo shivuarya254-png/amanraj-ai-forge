@@ -22,10 +22,10 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="text-2xl font-bold gradient-text">
-              Aman Raj
+              Bhanuja
             </div>
             <div className="hidden sm:block text-sm text-muted-foreground">
-              Gen AI Developer
+              AI & Full-Stack Developer
             </div>
           </div>
 
@@ -45,9 +45,11 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="hero" size="sm" className="gap-2">
-              <Download size={16} />
-              Resume
+            <Button variant="hero" size="sm" className="gap-2" asChild>
+              <a href="/resume.pdf" download>
+                <Download size={16} />
+                Resume
+              </a>
             </Button>
           </div>
 
@@ -77,9 +79,11 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button variant="hero" size="sm" className="w-full gap-2">
-                  <Download size={16} />
-                  Download Resume
+                <Button variant="hero" size="sm" className="w-full gap-2" asChild>
+                  <a href="/resume.pdf" download>
+                    <Download size={16} />
+                    Download Resume
+                  </a>
                 </Button>
               </div>
             </div>
