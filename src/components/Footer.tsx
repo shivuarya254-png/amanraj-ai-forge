@@ -7,7 +7,7 @@ const Footer = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
-    { name: "Skills", href: "#skills" }
+    { name: "Skills", href: "#skills" },
   ];
 
   const services = [
@@ -16,17 +16,17 @@ const Footer = () => {
     "Computer Vision",
     "Speech-to-Text",
     "API Integration",
-    "Consultation"
+    "Consultation",
   ];
 
   const socialLinks = [
     { icon: Github, href: "https://github.com/", label: "GitHub" }, // replace with your GitHub
     { icon: Linkedin, href: "https://linkedin.com/", label: "LinkedIn" }, // replace with your LinkedIn
-    { icon: Mail, href: "mailto:bhanuja.2002@gmail.com", label: "Email" }
+    { icon: Mail, href: "mailto:amanraj6221@gmail.com", label: "Email" },
   ];
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent"></div>
       </div>
-      
+
       <div className="relative">
         {/* Main Footer Content */}
         <div className="section-padding border-b border-background/20">
@@ -46,23 +46,23 @@ const Footer = () => {
                 <div>
                   <div className="text-3xl font-bold mb-2">
                     <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                      Bhanuja
+                      Aman
                     </span>
                   </div>
                   <Badge variant="secondary" className="mb-4">
                     AI & Full-Stack Developer
                   </Badge>
                   <p className="text-background/80 max-w-md leading-relaxed">
-                    Passionate about crafting intelligent AI-driven solutions and 
-                    building robust full-stack applications. Combining creativity with 
-                    technology to bring ideas to life.
+                    Passionate about crafting intelligent AI-driven solutions
+                    and building robust full-stack applications. Combining
+                    creativity with technology to bring ideas to life.
                   </p>
                 </div>
 
                 {/* Contact Info */}
                 <div className="space-y-2 text-sm text-background/80">
-                  <div>📧 bhanuja.2002@gmail.com</div>
-                  <div>📍 Andhra Pradesh, India</div>
+                  <div>📧 amanraj6221@gmail.com</div>
+                  <div>📍 Patna, India</div>
                 </div>
 
                 {/* Social Links */}
@@ -121,9 +121,7 @@ const Footer = () => {
           <div className="container-custom">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-background/80 text-sm">
-                <p className="flex items-center gap-2"> 
-                  and lots of 
-                </p>
+                <p className="flex items-center gap-2">and lots of</p>
               </div>
 
               <div className="flex items-center gap-4">

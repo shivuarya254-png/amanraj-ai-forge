@@ -21,9 +21,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="text-2xl font-bold gradient-text">
-              Bhanuja
-            </div>
+            <div className="text-2xl font-bold gradient-text"></div>
             <div className="hidden sm:block text-sm text-muted-foreground">
               AI & Full-Stack Developer
             </div>
@@ -79,7 +77,12 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button variant="hero" size="sm" className="w-full gap-2" asChild>
+                <Button
+                  variant="hero"
+                  size="sm"
+                  className="w-full gap-2"
+                  asChild
+                >
                   <a href="/resume.pdf" download>
                     <Download size={16} />
                     Download Resume
